@@ -1,0 +1,35 @@
+{
+    "Armor":{
+        "Common":{
+            "1":{ "name":"", "description":"", "bodyPart":"", "def":"" },
+            "2":{ "name":"", "description":"", "bodyPart":"", "def":"" },
+            "3":{ "name":"", "description":"", "bodyPart":"", "def":"" }
+        },
+        "Rare":{
+            "1":{ "name":"", "description":"", "bodyPart":"", "def":"" },
+            "2":{ "name":"", "description":"", "bodyPart":"", "def":"" },
+            "3":{ "name":"", "description":"", "bodyPart":"", "def":"" },
+            "4":{ "name":"", "description":"", "bodyPart":"", "def":"" }
+        },
+        "Legendary":{
+            "1":{ "name":"", "description":"", "bodyPart":"", "def":"" },
+            "2":{ "name":"", "description":"", "bodyPart":"", "def":"" },
+            "3":{ "name":"", "description":"", "bodyPart":"", "def":"" },
+            "4":{ "name":"", "description":"", "bodyPart":"", "def":"" },
+            "5":{ "name":"", "description":"", "bodyPart":"", "def":"" },
+            "6":{ "name":"", "description":"", "bodyPart":"", "def":"" }
+        },
+        "Unique":{
+            "1":{ "name":"", "description":"", "bodyPart":"", "def":"" },
+            "2":{ "name":"", "description":"", "bodyPart":"", "def":"" },
+            "3":{ "name":"", "description":"", "bodyPart":"", "def":"" },
+            "4":{ "name":"", "description":"", "bodyPart":"", "def":"" },
+            "5":{ "name":"", "description":"", "bodyPart":"", "def":"" },
+            "6":{ "name":"", "description":"", "bodyPart":"", "def":"" },
+            "7":{ "name":"", "description":"", "bodyPart":"", "def":"" },
+            "8":{ "name":"", "description":"", "bodyPart":"", "def":"" },
+            "9":{ "name":"", "description":"", "bodyPart":"", "def":"" },
+            "10":{ "name":"", "description":"", "bodyPart":"", "def":"" }
+        }
+    }
+}
