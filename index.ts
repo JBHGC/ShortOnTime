@@ -1,24 +1,25 @@
+// Map Folder/Files
 class MapLevel {
-    readonly mapHeight:number;
-    readonly mapWidth:number;
-    mapName:string;
-    readonly mapSize:number;
+    mapHeight: number;
+    mapWidth: number;
+    mapSize: number;
 
-    constructor( l: number, w: number, n: string ){
+    constructor( l: number, w: number ){
         this.mapHeight = l;
         this.mapWidth = w;
-        this.mapName = n;
         this.mapSize = this.mapHeight * this.mapWidth;
 
 
     }
 }
 
+// Character Folder/Files
 interface Character {
     hp:number,
     sp:number,
     atk:number,
     def:number,
+    mv:number,
     inventory:Array<object>,
     // Hidden Stats
     maxHP:number,
@@ -26,7 +27,8 @@ interface Character {
     maxInventorySize:number
 
 }
-let jay: Character={ hp:135, sp:50, atk:45, def:20, inventory:[], maxHP:120, maxSP:200, maxInventorySize:5 } // BST:200
+
+// Item Folder/Files
 
 interface Item {
     readonly name:string,
@@ -44,14 +46,18 @@ interface Weapon extends Item {
     readonly atk:number
 }
 
-function createMap( Map:object ){
+// Main File
 
-}
-
-function displayLandscape(Map:object): void{
+function buildMap( Map:object ){
 
 }
 
 function main(): void{
     
 }
+
+//Character Test
+let jay: Character={ hp:135, sp:50, atk:45, def:20, mv:4, inventory:[], maxHP:120, maxSP:200, maxInventorySize:5 } // BST:200
+
+//Map Test
+const plains = new MapLevel(15, 15);
