@@ -1,35 +1,35 @@
 {
     "Armor":{
         "Common":{
-            "1":{ "name":"", "description":"", "bodyPart":"", "def":"" },
-            "2":{ "name":"", "description":"", "bodyPart":"", "def":"" },
-            "3":{ "name":"", "description":"", "bodyPart":"", "def":"" }
+            "1":{ "name":"Plastic Kneepads", "description":"At least it covers your knees while sliding?..", "bodyPart":"legs", "def":"1", "effect":{"Slide":"1"} },
+            "2":{ "name":"Makeshift Arm Brace", "description":"Some random bars of metal and rope.", "bodyPart":"arms", "def":"3", "effect":{"Power":"1"} },
+            "3":{ "name":"Rubber-Coated Leather Gloves", "description":"Maybe this could help to hold damaged items?", "bodyPart":"hands", "def":"1", "effect":{"Grip":"1"} }
         },
         "Rare":{
-            "1":{ "name":"", "description":"", "bodyPart":"", "def":"" },
-            "2":{ "name":"", "description":"", "bodyPart":"", "def":"" },
-            "3":{ "name":"", "description":"", "bodyPart":"", "def":"" },
-            "4":{ "name":"", "description":"", "bodyPart":"", "def":"" }
+            "1":{ "name":"", "description":"", "bodyPart":"", "def":"", "effect":{"":""} },
+            "2":{ "name":"", "description":"", "bodyPart":"", "def":"", "effect":{"":""} },
+            "3":{ "name":"", "description":"", "bodyPart":"", "def":"", "effect":{"":""} },
+            "4":{ "name":"", "description":"", "bodyPart":"", "def":"", "effect":{"":""} }
         },
         "Legendary":{
-            "1":{ "name":"", "description":"", "bodyPart":"", "def":"" },
-            "2":{ "name":"", "description":"", "bodyPart":"", "def":"" },
-            "3":{ "name":"", "description":"", "bodyPart":"", "def":"" },
-            "4":{ "name":"", "description":"", "bodyPart":"", "def":"" },
-            "5":{ "name":"", "description":"", "bodyPart":"", "def":"" },
-            "6":{ "name":"", "description":"", "bodyPart":"", "def":"" }
+            "1":{ "name":"", "description":"", "bodyPart":"", "def":"", "effect":{"":""} },
+            "2":{ "name":"", "description":"", "bodyPart":"", "def":"", "effect":{"":""} },
+            "3":{ "name":"", "description":"", "bodyPart":"", "def":"", "effect":{"":""} },
+            "4":{ "name":"", "description":"", "bodyPart":"", "def":"", "effect":{"":""} },
+            "5":{ "name":"", "description":"", "bodyPart":"", "def":"", "effect":{"":""} },
+            "6":{ "name":"", "description":"", "bodyPart":"", "def":"", "effect":{"":""} }
         },
         "Unique":{
-            "1":{ "name":"", "description":"", "bodyPart":"", "def":"" },
-            "2":{ "name":"", "description":"", "bodyPart":"", "def":"" },
-            "3":{ "name":"", "description":"", "bodyPart":"", "def":"" },
-            "4":{ "name":"", "description":"", "bodyPart":"", "def":"" },
-            "5":{ "name":"", "description":"", "bodyPart":"", "def":"" },
-            "6":{ "name":"", "description":"", "bodyPart":"", "def":"" },
-            "7":{ "name":"", "description":"", "bodyPart":"", "def":"" },
-            "8":{ "name":"", "description":"", "bodyPart":"", "def":"" },
-            "9":{ "name":"", "description":"", "bodyPart":"", "def":"" },
-            "10":{ "name":"", "description":"", "bodyPart":"", "def":"" }
+            "1":{ "name":"", "description":"", "bodyPart":"", "def":"", "effect":{"":""} },
+            "2":{ "name":"", "description":"", "bodyPart":"", "def":"", "effect":{"":""} },
+            "3":{ "name":"", "description":"", "bodyPart":"", "def":"", "effect":{"":""} },
+            "4":{ "name":"", "description":"", "bodyPart":"", "def":"", "effect":{"":""} },
+            "5":{ "name":"", "description":"", "bodyPart":"", "def":"", "effect":{"":""} },
+            "6":{ "name":"", "description":"", "bodyPart":"", "def":"", "effect":{"":""} },
+            "7":{ "name":"", "description":"", "bodyPart":"", "def":"", "effect":{"":""} },
+            "8":{ "name":"", "description":"", "bodyPart":"", "def":"", "effect":{"":""} },
+            "9":{ "name":"", "description":"", "bodyPart":"", "def":"", "effect":{"":""} },
+            "10":{ "name":"", "description":"", "bodyPart":"", "def":"", "effect":{"":""} }
         }
     }
 }
