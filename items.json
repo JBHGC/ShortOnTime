@@ -31,5 +31,36 @@
             "9":{ "name":"", "description":"", "bodyPart":"", "def":"", "effect":{"":""} },
             "10":{ "name":"", "description":"", "bodyPart":"", "def":"", "effect":{"":""} }
         }
+    },
+    "Weapons":{
+            "1":{ "name":"Slingshot", "description":"Hey at least it's free ammo!", "weaponType":"projectile", "atk":"1", "effect":{"Area":"1"} },
+            "2":{ "name":"Metal Pipe", "description":"", "weaponType":"swing", "atk":"3", "effect":{"Melee":"1"} },
+            "3":{ "name":"", "description":"", "weaponType":"cast", "atk":"1", "effect":{"":"1"} }
+        },
+        "Rare":{
+            "1":{ "name":"", "description":"", "weaponType":"", "atk":"", "effect":{"":""} },
+            "2":{ "name":"", "description":"", "weaponType":"", "atk":"", "effect":{"":""} },
+            "3":{ "name":"", "description":"", "weaponType":"", "atk":"", "effect":{"":""} },
+            "4":{ "name":"", "description":"", "weaponType":"", "atk":"", "effect":{"":""} }
+        },
+        "Legendary":{
+            "1":{ "name":"", "description":"", "weaponType":"", "atk":"", "effect":{"":""} },
+            "2":{ "name":"", "description":"", "weaponType":"", "atk":"", "effect":{"":""} },
+            "3":{ "name":"", "description":"", "weaponType":"", "atk":"", "effect":{"":""} },
+            "4":{ "name":"", "description":"", "weaponType":"", "atk":"", "effect":{"":""} },
+            "5":{ "name":"", "description":"", "weaponType":"", "atk":"", "effect":{"":""} },
+            "6":{ "name":"", "description":"", "weaponType":"", "atk":"", "effect":{"":""} }
+        },
+        "Unique":{
+            "1":{ "name":"", "description":"", "weaponType":"", "atk":"", "effect":{"":""} },
+            "2":{ "name":"", "description":"", "weaponType":"", "atk":"", "effect":{"":""} },
+            "3":{ "name":"", "description":"", "weaponType":"", "atk":"", "effect":{"":""} },
+            "4":{ "name":"", "description":"", "weaponType":"", "atk":"", "effect":{"":""} },
+            "5":{ "name":"", "description":"", "weaponType":"", "atk":"", "effect":{"":""} },
+            "6":{ "name":"", "description":"", "weaponType":"", "atk":"", "effect":{"":""} },
+            "7":{ "name":"", "description":"", "weaponType":"", "atk":"", "effect":{"":""} },
+            "8":{ "name":"", "description":"", "weaponType":"", "atk":"", "effect":{"":""} },
+            "9":{ "name":"", "description":"", "weaponType":"", "atk":"", "effect":{"":""} },
+            "10":{ "name":"", "description":"", "weaponType":"", "atk":"", "effect":{"":""} }
     }
 }

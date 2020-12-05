@@ -1,8 +1,9 @@
 // Map Folder/Files
+/** "Blueprint" map class which allows basic map creation */
 class MapLevel {
-    mapHeight: number;
-    mapWidth: number;
-    mapSize: number;
+    readonly mapHeight: number;
+    readonly mapWidth: number;
+    readonly mapSize: number;
 
     constructor( l: number, w: number ){
         this.mapHeight = l;
@@ -14,6 +15,7 @@ class MapLevel {
 }
 
 // Character Folder/Files
+/** Base Living Character with fighting abilities */
 interface Character {
     hp:number,
     sp:number,
@@ -29,7 +31,7 @@ interface Character {
 }
 
 // Item Folder/Files
-
+/** Base Item interface for pretty much everything that can go into an inventory */
 interface Item {
     readonly name:string,
     readonly description:string,
@@ -39,11 +41,30 @@ interface Armor extends Item {
     readonly bodyPart:string,
     readonly def:number
 }
-let chest: Armor={ name:"", description:"A simple piece of armor that contains simple", bodyPart:"", def:5 }
+let chest: Armor={ name:"", description:"A simple piece of armor", bodyPart:"", def:5 }
 
 interface Weapon extends Item {
     readonly weaponType:string,
     readonly atk:number
+}
+
+// Consumables
+interface Ammo extends Item {
+    readonly ammoType:string
+}
+
+interface Healing extends Item {
+    readonly health:number,
+    readonly effect:string
+}
+
+// Containers which hold only certain types of items
+interface AmmoBag extends Item {
+    readonly slots:Array<Ammo> 
+}
+
+interface MedBag extends Item {
+    readonly slots:Array<Healing>
 }
 
 // Main File
@@ -57,7 +78,17 @@ function main(): void{
 }
 
 //Character Test
-let jay: Character={ hp:135, sp:50, atk:45, def:20, mv:4, inventory:[], maxHP:120, maxSP:200, maxInventorySize:5 } // BST:200
+const jay: Character={
+     hp:135, 
+     sp:50, 
+     atk:45, 
+     def:20, 
+     mv:4, 
+     inventory:[], 
+     maxHP:120, 
+     maxSP:200, 
+     maxInventorySize:5 
+    } // BST:200
 
 //Map Test
 const plains = new MapLevel(15, 15);
