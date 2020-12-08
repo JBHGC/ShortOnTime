@@ -10,12 +10,21 @@ var MapLevel = /** @class */ (function () {
 }());
 var chest = { name: "", description: "A simple piece of armor", bodyPart: "", def: 5 };
 // Main File
-function buildMap(Map) {
+function buildMap(grid) {
+    console.log(grid);
+    for (var each in grid) {
+        console.log;
+    }
 }
 function main() {
+    console.log(plains);
+    console.log(jay);
+    console.log("testing");
+    buildMap(plains);
 }
 //Character Test
 var jay = {
+    status: ["Alive"],
     hp: 135,
     sp: 50,
     atk: 45,
@@ -27,4 +36,5 @@ var jay = {
     maxInventorySize: 5
 }; // BST:200
 //Map Test
-var plains = new MapLevel(15, 15);
+var plains = new MapLevel(16, 14);
+main();

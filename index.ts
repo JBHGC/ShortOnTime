@@ -17,6 +17,7 @@ class MapLevel {
 // Character Folder/Files
 /** Base Living Character with fighting abilities */
 interface Character {
+    status:Array<string>, // Possible statuses: Alive, Dead, Poisoned, Asleep, Blinded, Stunned
     hp:number,
     sp:number,
     atk:number,
@@ -69,16 +70,25 @@ interface MedBag extends Item {
 
 // Main File
 
-function buildMap( Map:object ){
+function buildMap( grid:object ){
+    console.log(grid)
+    for(let each in grid){
+        console.log
+    }
 
 }
 
 function main(): void{
+    console.log(plains)
+    console.log(jay)
+    console.log("testing")
+    buildMap(plains)
     
 }
 
 //Character Test
 const jay: Character={
+     status: ["Alive"],
      hp:135, 
      sp:50, 
      atk:45, 
@@ -91,4 +101,6 @@ const jay: Character={
     } // BST:200
 
 //Map Test
-const plains = new MapLevel(15, 15);
+const plains = new MapLevel(16, 14);
+
+main()
