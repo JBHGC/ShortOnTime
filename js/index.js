@@ -10,10 +10,10 @@ var MapLevel = /** @class */ (function () {
 }());
 var chest = { name: "", description: "A simple piece of armor", bodyPart: "", def: 5 };
 // Main File
-function buildMap(m) {
-    console.log(m.mapHeight);
-    for (var row in m.mapHeight) {
-        console.log("rows");
+function buildMap(grid) {
+    console.log(grid);
+    for (var each in grid) {
+        console.log;
     }
 }
 function main() {
@@ -22,7 +22,6 @@ function main() {
     console.log("testing");
     buildMap(plains);
 }
-////// TESTING OBJECTS //////
 //Character Test
 var jay = {
     status: ["Alive"],

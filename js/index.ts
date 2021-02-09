@@ -70,10 +70,10 @@ interface MedBag extends Item {
 
 // Main File
 
-function buildMap( m ){
-    console.log(m.mapHeight)
-    for(let row in m.mapHeight){
-        console.log("rows")
+function buildMap( grid:object ){
+    console.log(grid)
+    for(let each in grid){
+        console.log
     }
 
 }
@@ -86,7 +86,6 @@ function main(): void{
     
 }
 
- ////// TESTING OBJECTS //////
 //Character Test
 const jay: Character={
      status: ["Alive"],
